@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: larger;
+    font-family: cursive;
+    height: 100%;
+    align-items: center;
+}
+.one{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    
+
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: -6px;
+}
+.header{
+    background-color: green;
+    height: 200px;
+    left: 0;
+    width: 50%;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    order: 2;
+}
+
+.second{
+    background-color: green;
+    height: 200px;
+    width: 50%;    
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    
+}
+.stick{
+    width: 10px;
+    height: 450px;
+    background-color:#966F33;
+    
+    order: 1;
+
+}
+.image{    
+    position: relative;
+    left: 108px ;
+    
+}
+img{
+    width: 250px;
+    margin: 0px;
+    padding: 0%;    
+
+}
+.love{
+    display: flex;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+}
+.btn {
+    visibility: visible;
+    height:50px;
+    width:200px;
+    color:red;
+    background-color: white;
+    border-radius: 200px;
+    border:2px solid red;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.btn:hover{
+     background-color: pink;
+     color: whitesmoke;
+     border-color:red;
+     cursor:pointer;
+
+}
+
+.onpress {
+    background-color: red;
+    border-color: black;
+    box-shadow: #966F33;
+    color: white;
+    height: 50px;
+    width:200px;
+}
+
+.onpress:hover {
+    background-color: red;
+    border-color: black;
+    box-shadow: #966F33;
+    color: white;
+    height: 50px;
+    width:200px;
+}
+
+.visibility {
+    visibility: visible;
+}
+
+.animation {
+    box-shadow: 0 10px 50px rgb(245, 115, 182);
+    transform: scale(0.90);
+}
