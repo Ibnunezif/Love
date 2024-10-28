@@ -9,7 +9,7 @@ button.addEventListener("click",function name(){
        button.textContent="open";
     }
     else {
-        button.textContent="Magfu";
+        button.textContent="Love";
     }
 })
 
